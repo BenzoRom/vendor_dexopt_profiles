@@ -1,0 +1,35 @@
+vendor_dexopt_profiles
+======================
+
+Collection of dexopt profiles for Android 11 Google Apps.
+These profiles are for the latest gapps in [vendor_googleapps](https://bitbucket.org/xanaxdroid/vendor_googleapps).
+
+List of app profiles
+--------------------
+
+| Application | Package Name | Profile |
+| :---         |     :---:      |          ---: |
+| Calculator | com.google.android.calculator | CalculatorGooglePrebuilt |
+| Calendar | com.google.android.calendar | CalendarGooglePrebuilt |
+| Contacts | com.google.android.contacts | GoogleContacts |
+| Deskclock | com.google.android.deskclock | PrebuiltDeskClockGoogle |
+| Device Health Services | com.google.android.apps.turbo | TurboPrebuilt |
+| GMail | com.google.android.gm | PrebuiltGmail |
+| Google | com.google.android.googlequicksearchbox | Velvet |
+| Google Camera | com.google.android.GoogleCamera | GoogleCamera |
+| Google Dialer | com.google.android.dialer | GoogleDialer |
+| Google Keyboard | com.google.android.inputmethod.latin | LatinIMEGooglePrebuilt |
+| Messages | com.google.android.apps.messaging | PrebuiltBugle |
+| Pixel Launcher | com.google.android.apps.nexuslauncher | NexusLauncherRelease |
+| Play Services | com.google.android.gms | PrebuiltGmsCore |
+| Play Store | com.android.vending | Phonesky |
+| Settings Services | com.google.android.settings.intelligence | SettingsIntelligenceGooglePrebuilt |
+
+Update Profiles
+---------------
+
+To update profiles they need to be generated from your phone
+while it's connected to adb. From vendor/dexopt_profiles:
+
+	./update-profiles.sh
+
